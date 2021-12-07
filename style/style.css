@@ -1,14 +1,18 @@
 body {
   display: block;
   overflow-x: hidden;
-  background-color:EFE9E8;
+  background-color:whitesmoke;
  
 }
 nav {
-  background-color: white;
+  background-color: lightgrey;
 }
-.navbar-brand img {
-  max-height: 50px;
+.navbar-brand img{
+    max-height: 50px;
+}
+.logo{
+  max-width:25%;
+  height: auto;
 }
 .navbar-brand {
   font-size: 24px;

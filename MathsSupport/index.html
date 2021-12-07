@@ -1,4 +1,5 @@
-<!-- Subscription Form -->
+<!-- Support page -->
+
 <!DOCTYPE html>
 <html>
   <head>
@@ -43,47 +44,65 @@
 </nav>
 <!-- End Navbar -->
 
-
-
 <!-- main section -->
 <section id="main">
-	<div class="space"></div>
-	<div class="container">
+<div class="space"></div>
+  <div class="container">
     <div class="row">
       <div class="col">
         <h1>Welcome to Team Maths </h1>
-        <p>Keep up to date with all the news involving Team Maths by subscribing to our Newsletter. We will keep you informed about upcoming competitions and extra resources available. Simply fill in the subscription form below.</p>
-        
+        <p>This site has been created to help you connect with other students who would like some extra support in maths. It also offers you the opportunity to join Team Maths and offer help to others. Finally Team maths organises many competitions and events in which you might like to particpate in.</p>
+        <form action="./subscribe/index.html">
+		<button type="submit" class="btn btn-dark btn-large">Subscribe</button>
+		
+		 
+         
+         </form>
       </div>
       <div class="col img-col">
-        <img src="../images/subscribe.jpeg" class="img-fluid" alt="Subscribe image">
+        <img src="../images/mathsbanner.jpg" class="img-fluid" alt="Maths Banner">
       </div>
     </div>
 	
 	<div class="space"></div>
 	
-	<h1>
-  Subscription Form
-</h1>
-
-<div>
-  <form id="myForm" onsubmit="myInputs(); return false" >
-			Name: <input type="text" id="userName" class="formStyle" placeholder="Name (required)">
-			Email: <input type="email" id="email" class="formStyle" placeholder="Email (required)"  >
-			<input type="submit" value="Submit" class="button"/><br/>
-		</form> 
-  <!--
-  <form action="" id="myForm" onsubmit="myInputs()>
-    <input type="text" id="userName" class="formStyle" placeholder="Name (required)" required /></br>
-    <input type="email" id="email" class="formStyle" placeholder="Email (required)" required /></br>
-	 <input type="text" name="class" class="formStyle" placeholder="Class (required)" required />
-	<input type="submit" value="Submit" class="button"/><br/>
-
-    <!--<button type="button" class="btn btn-dark btn-large">Subscribe</button>-->
 	
-  </form>
-</div>
-    
+    <div class="row cards">
+      <div class="col-md-4 d-flex justify-content-center">
+        <div class="card" style="width: 22rem;">
+          <div class="card-body">
+            <img src="../images/JCimage.jpg" class="icon" alt="Junior cert image"/>
+            <h5 class="card-title">Maths Support</h5>
+            <p class="card-text">Need some extra help? The Team Maths resource area is open to all junior cycle students on Monday's from 1:10pm to 1:45pm.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4 d-flex justify-content-center">
+        <div class="card" style="width: 22rem;">
+          <div class="card-body">
+            <img src="../images/LC-logo.jpeg" class="icon" alt="Leaving Cert logo"/>
+            <h5 class="card-title">Useful Links</h5>
+            <p class="card-text">Struggling with some new topics? Follow this link for useful resources <p>
+          </div>
+        </div>
+      </div>
+	  
+
+
+      <div class="col-md-4 d-flex justify-content-center">
+        <div class="card" style="width: 22rem;">
+          <div class="card-body">
+            <img src="../images/math-quiz.jpeg" class="icon" alt="Maths quiz logo"/>
+            <h5 class="card-title">Subscribe</h5>
+            <p class="card-text">Subscribe to keep up to date with Team Maths</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
 <!-- End main section -->
 
   </body>
