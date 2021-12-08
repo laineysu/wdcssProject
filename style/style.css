@@ -20,6 +20,17 @@ nav {
   font-weight: 900;
   color: #683aa4;
 }
+@media(min-width:600px){
+.container-1{
+	display:flex;	
+}
+}
+.container-1 div{
+	padding:10px;
+}
+.box-1 {
+  flex-basis:30%;
+}
 nav ul li a {
   color: #a9a9a9;
   font-size: 22px;
