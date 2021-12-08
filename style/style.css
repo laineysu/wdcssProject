@@ -53,7 +53,7 @@ button {
   display: flex;
 }
 #main .img-col {
-  justify-content: flex-end; 
+  justify-content: flex-center; 
   margin-top: 100px;
 }
 #main img {
