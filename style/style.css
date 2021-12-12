@@ -1,65 +1,80 @@
+/*bootstrap is used with modification using flex displays*/
+/*Sections with AB=Audrey Byrne */
+/*Sections with HS=H Suttle */
+/*AB*/
 body {
   display: block;
   overflow-x: hidden;
   background-color:whitesmoke;
  
 }
+/*AB*/
 nav {
   background-color: lightgrey;
 }
+/*AB*/
 .navbar-brand img{
     max-height: 50px;
 }
+/*HS*/
 .logo{
   max-width:25%;
   height: auto;
 }
-
+/*AB*/
 .navbar-brand {
   font-size: 24px;
   text-transform: uppercase;
   font-weight: 900;
   color: #683aa4;
 }
-
+/*Allows for a specific flex display with a media query for mobile screens
+*/
+/*HS*/
 @media(min-width:600px){
 .container-1{
 	display:flex;	
 }
 }
+/*HS*/
 .container-1 div{
 	padding:10px;
 }
+/*HS*/
 .box-1 {
   flex-basis:30%;
 }
+/*HS*/
 .box-2 {
-  flex-basis:50%;
+  flex-basis:43%;
 }
+/*HS*/
 @media(min-width:600px){
 .container-2{
 	display:flex;	
 }
 }
+/*HS*/
 .container-2 div{
 	padding:10px;
 }
-.box-2 {
-  flex-basis:50%;
-}
 
+/*AB*/
 nav ul li a {
   color: #a9a9a9;
   font-size: 22px;
   margin: auto 10px;
 }
+/*AB*/
 nav ul li a:hover {
   color: #683aa4;
 }
+/*AB*/
 section {
   padding-top: 50px;
   padding-bottom: 50px;
 }
+/*AB*/
 section h1 {
   text-transform: uppercase;
   font-weight: 900;
@@ -67,10 +82,12 @@ section h1 {
   text-align: left;
   margin-bottom: 20px;
 }
+/*AB*/
 section p {
   font-size: 16px;
   font-weight: 300;
 }
+/*AB*/
 button {
    padding: 15px 32px;
   text-align: center;
@@ -80,27 +97,31 @@ button {
   max-width: 50%;
   border-radius: 50px !important;
 }
-
+/*HS*/
 #main .col {
   justify-content: center; 
   flex-direction: column;
   display: flex;
 }
+/*AB*/
 #main .img-col {
   justify-content: flex-center; 
   margin-top: 100px;
 }
+/*HS*/
 #main img {
   max-width: 100% !important;
   width: 100%;
 }
+/*AB*/
 #main .space { margin-top: 50px; }
-
+/*HS*/
 #main .card {
   box-shadow: 11px 7px 16px #f9f9f9;
   border: 0;
   text-align: center;
 }
+/*HS*/
 #main .icon {
   width: 100px;
   height: 100px;

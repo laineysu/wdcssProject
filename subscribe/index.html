@@ -51,16 +51,17 @@
 
 
 <!-- main section -->
+<!--Using a flex display for the horizontal elements in the container-->
 <section id="main">
 	<div class="space"></div>
-	<div class="container">
-    <div class="row">
-      <div class="col">
+	<div class="container-1">
+  
+      <div class="box-2">
         <h1>Welcome to Team Maths </h1>
         <p>Keep up to date with all the news involving Team Maths by subscribing to our Newsletter. We will keep you informed about upcoming competitions and extra resources available. Simply fill in the subscription form below.</p>
         
       </div>
-      <div class="col img-col">
+      <div class="box-2">
         <img src="../images/subscribe.jpeg" class="img-fluid" alt="Subscribe image">
       </div>
     </div>
@@ -73,19 +74,11 @@
 
 <div>
   <form id="myForm" onsubmit="myInputs(); return false; " >
-			Name: <input type="text" id="userName" class="formStyle" placeholder="Name (required)">
-			Email: <input type="email" id="email" class="formStyle" placeholder="Email (required)"  >
+			Name: <input type="text" id="userName" class="formStyle" placeholder="Name (required)"><br><br>
+			Email : <input type="email" id="email" class="formStyle" placeholder="Email (required)"  >
 			<input type="submit" value="Submit" class="button"/><br/>
 		</form> 
-  <!--
-  <form action="" id="myForm" onsubmit="myInputs()>
-    <input type="text" id="userName" class="formStyle" placeholder="Name (required)" required /></br>
-    <input type="email" id="email" class="formStyle" placeholder="Email (required)" required /></br>
-	 <input type="text" name="class" class="formStyle" placeholder="Class (required)" required />
-	<input type="submit" value="Submit" class="button"/><br/>
-
-    <!--<button type="button" class="btn btn-dark btn-large">Subscribe</button>-->
-	
+ 
   </form>
 </div>
     
