@@ -6,6 +6,7 @@ body {
   display: block;
   overflow-x: hidden;
   background-color:whitesmoke;
+  padding: 30px;
  
 }
 /*AB*/
@@ -126,4 +127,9 @@ button {
   width: 100px;
   height: 100px;
   margin-bottom: 20px;
+}
+#quiz {
+	
+	
+	
 }
