@@ -1,17 +1,17 @@
 /*bootstrap is used with modification using flex displays*/
 /*Sections with AB=Audrey Byrne */
-/*Sections with HS=H Suttle */
+/*Sections with HS=Helene Suttle */
 /*AB*/
 body {
   display: block;
   overflow-x: hidden;
-  background-color:whitesmoke;
+  background-color:#F5F5F5; /*Hex code for whitesmoke*/
   padding: 30px;
  
 }
 /*AB*/
 nav {
-  background-color: lightgrey;
+  background-color: #D3D3D3; /*Hex code for lightgrey*/
 }
 /*AB*/
 .navbar-brand img{
@@ -27,7 +27,7 @@ nav {
   font-size: 24px;
   text-transform: uppercase;
   font-weight: 900;
-  color: #683aa4;
+  color: #683aa4; /*Hex code for shade of purple*/
 }
 /*Allows for a specific flex display with a media query for mobile screens
 */
@@ -62,7 +62,7 @@ nav {
 
 /*AB*/
 nav ul li a {
-  color: #a9a9a9;
+  color: #a9a9a9; /*Hex code for dark grey*/
   font-size: 22px;
   margin: auto 10px;
 }
@@ -132,4 +132,8 @@ button {
 	
 	
 	
+}
+/*AB*/
+input[type="radio"]{
+  margin: 0 5px 0 15px;
 }
