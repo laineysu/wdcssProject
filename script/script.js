@@ -1,16 +1,29 @@
 //This function checks if the user has entered a name - returns an elert if not
 //This function displays a message to the user when name and email are entered correctly
-//html checks if email is in the correct format
-function myInputs(email,userName,myDiv){	
+//Javascript checks email is in correct format
+//html also checks if email is in the correct format
+function myInputs(email,userName){	
 	var email = document.getElementById("email").value;
 	var userName = document.getElementById("userName").value;
-	document.getElementById("myForm").style.display="none";
-	if (userName == "") {
-		alert("Name must be filled out");
+	var regx=/^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+	
+	if (email.match(regx)){
+		if(userName==""){
+			alert("Name must be filled out");
+		}
+		else{
+			alert(userName+" thank you for your details. We will be in touch via "+email+" shortly.");
+			return true;
+		}
 	}
 	else{
-		alert(userName+" thank you for your details. We will be in touch via "+email+" shortly.");	
+		alert("Your email address is not valid");	
+		return false;
 	}
+}
+//JavaScript email validation
+function emailIsValid (email) {
+  return /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)
 }
 
 //This is the quiz function
