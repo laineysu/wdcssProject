@@ -21,10 +21,6 @@ function myInputs(email,userName){
 		return false;
 	}
 }
-//JavaScript email validation
-function emailIsValid (email) {
-  return /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)
-}
 
 //This is the quiz function
 var myQuestions = [
